@@ -1,0 +1,286 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 1% 0;
+    color: black;
+    min-height: 1%;
+}
+
+footer {
+    background-color: rgb(22, 35, 63);
+    width: 100vw;
+    padding-top: 40px;
+}
+
+.slide-inicio {
+    height: 35rem;
+}
+
+.slide-blog {
+    width: 60rem;
+    margin: 0 auto;
+}
+
+.navbar {
+    color: black;
+}
+
+.LogoK, .LogoB{
+    max-width: 100%;
+    height: auto;
+}
+
+.LogoB {
+    width: 100px;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    margin: 0 15px;
+}
+
+body {
+    color: white;
+    font-family: "Mulish", sans-serif;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://static.wixstatic.com/media/128120_7f3b9fbf981448809326f69585851cb9~mv2.jpg/v1/fill/w_980,h_667,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/128120_7f3b9fbf981448809326f69585851cb9~mv2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.enlace {
+    text-decoration: none;
+    color: inherit;
+}
+
+.encima {
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 50%;
+}
+
+.encima2 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 50%;
+}
+
+.carousel-inner {
+    position: relative;
+}
+
+.desc {
+    background-color: #ffffff;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.estudios {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    background-color: #ffffff;
+    padding-bottom: 75px;
+  }
+
+.estudios2 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 75px;
+    background-color: #ffffff;
+  }
+  
+  .patrocinadores{
+    background-color: rgb(35, 55, 109);
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: aliceblue;
+  }
+
+  .elemento-estudio{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .elemento-estudio2 {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+  
+  .informacion-curso {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+  .trabajos-donaciones {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+    width: 90%;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+}
+
+  .trabajo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+  .elemento-trabajo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+  .trabajo-texto {
+    max-width: 50%;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.trabajo-texto h1{
+    font-size: 75px;
+}
+
+.trabajo-texto h2{
+    font-size: 32px;
+}
+
+.trabajo-texto p{
+    font-size: 14px;
+}
+
+.titulosFooter {
+    text-align: center;
+    font-family: "Rubik Mono One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    color: white;
+}
+
+.beneficiados {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-text {
+    text-align: center;
+  }
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+}
+
+.inferior {
+    font-size: large
+}
+
+.superior {
+    font-family: "Archivo Black", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5.5rem;
+}
+
+.img-blog {
+    filter: brightness(50%);
+    width: 100%;
+    height: auto;
+}
+
+.contactos {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .elemento-contacto {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: azure;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+  }
+
+  .izquierda {
+    align-items: start;
+    padding-right: 50px;
+    padding-top: 65px;
+    padding-bottom: 75px;
+  }
+
+  .centro {
+    justify-content: center;
+    padding-right: 125px;
+    padding-left: 125px;
+  }
+
+  .derecha {
+    justify-content: center;
+    border-left: 2px solid #ddd;
+    padding-left: 25px;
+  }
+
+  .map {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .admisiones {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-right: 300px;
+  }

@@ -1,0 +1,171 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 1% 0;
+    color: black;
+    min-height: 1%;
+}
+
+.navbar {
+    color: black;
+}
+
+.LogoK, .LogoB{
+    max-width: 100%;
+    height: auto;
+}
+
+.LogoB {
+    width: 100px;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    margin: 0 15px;
+}
+
+.encima {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 25%;
+}
+
+.slide-blog {
+    width: 60rem;
+    margin: 0 auto;
+}
+
+.plazas {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+  }
+  
+  .columna {
+    text-align: center;
+  }
+  
+  .columna img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+footer {
+    background-color: rgb(22, 35, 63);
+    width: 100vw;
+    padding-top: 40px;
+}
+
+.titulosFooter {
+    text-align: center;
+    font-family: "Rubik Mono One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    color: white;
+}
+
+.beneficiados {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-text {
+    text-align: center;
+  }
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+}
+
+.inferior {
+    font-size: large
+}
+
+.superior {
+    font-family: "Archivo Black", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5.5rem;
+}
+
+.img-blog {
+    filter: brightness(50%);
+    width: 100%;
+    height: auto;
+}
+
+.contactos {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .elemento-contacto {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: azure;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+  }
+
+  .izquierda {
+    align-items: start;
+    padding-right: 50px;
+    padding-top: 65px;
+    padding-bottom: 75px;
+  }
+
+  .centro {
+    justify-content: center;
+    padding-right: 125px;
+    padding-left: 125px;
+  }
+
+  .derecha {
+    justify-content: center;
+    border-left: 2px solid #ddd;
+    padding-left: 25px;
+  }
+
+  .map {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .admisiones {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-right: 300px;
+  }
