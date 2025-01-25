@@ -1,0 +1,15 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.flex > div {
+  flex: 1;
+  max-width: 50%;
+}
+
+.carousel-inner {
+  max-height: 375px;
+}
